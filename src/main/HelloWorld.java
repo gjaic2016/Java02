@@ -17,15 +17,6 @@ public class HelloWorld {
 
         Scanner scanner = new Scanner(System.in);
 
-//        while (!condition) {
-//            unos = skener.nextLine();
-//            if (unos.matches("^[1-5]")) {
-//                condition = true;
-//            } else {
-//                System.out.println("Broj mora biti izmeðu 1 i 5.");
-//            }
-//        }
-
         System.out.println("Unesite broj kilometara: ");
         do {
             while (!scanner.hasNextDouble()) {
